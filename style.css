@@ -1,1 +1,21 @@
-# ABC-Bank
+body {
+    background: chocolate !important;
+    color: #fff !important;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+}
+
+.boxes .card {
+    padding: 40px;
+    color: #111;
+}
+
+.boxes .card h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
